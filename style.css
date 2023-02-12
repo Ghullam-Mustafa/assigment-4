@@ -1,0 +1,291 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#body{
+    background: #E5E5E5;
+}
+.nav{
+    display: flex;
+justify-content: space-between;
+padding: 40px;  
+
+}
+
+.navbar li {
+   
+    float: left;
+    list-style: none;
+    display: flex;
+    /* justify-content: space-between; */
+    padding: 0px 20px;
+}
+
+.navbar li a{
+    font-family: 'New York Small';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 170%;
+    /* identical to box height, or 34px */
+    
+    text-align: center;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    
+    text-decoration: none;
+}
+
+.words{
+    font-family: 'New York Extra Large';
+font-style: normal;
+font-weight: 700;
+font-size: 54px;
+line-height: 100%;
+/* or 54px */
+
+text-align: center;
+
+color: #000000;
+
+margin: 50px;
+}
+
+.second{
+    
+font-family: 'SF Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 170%;
+/* or 34px */
+
+text-align: center;
+
+color: #000000;
+}
+
+.halfline{
+    border: 2px solid #000000;
+    width: 50%;
+    height: 0px;
+    margin: 25px;
+    margin-left: 25%;
+}
+
+.third{
+   display: flex;
+   justify-content: space-around;
+   margin-left: 150px;
+   margin-right: 180px;
+   align-items: baseline;
+}
+
+.o img{
+    border: 2px solid white;
+    border-radius:50%;
+}
+
+.b{
+    margin: 12px;
+}
+
+
+
+.logoooo img{
+    display: flex;
+    flex-direction: row
+}
+
+.lineee{
+    border: 1px solid #EAEAEA;
+    transform: rotate(-90deg);
+}
+
+.immm{
+    display: flex;
+    align-items: baseline;
+}
+
+.oooo{
+    display: flex;
+}
+
+.p p{
+    margin: 4%;
+    margin-left:25% ;
+    margin-right: 25%;
+
+}
+
+.next{
+    
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 160%;
+color: #000000;
+margin-left: 25%;
+}
+
+.p2{
+    font-family: 'New York Medium';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 170%;
+/* padding-left: 25%; */
+margin-left: 25%;
+margin-right: 25%;
+
+color: #000000;
+}
+
+.picc {
+  
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.p4{
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    
+    text-align: center;
+    
+    color: #000000;
+     display: flex;
+     justify-content: center;
+     padding-top: 1%;
+}
+
+.para5{
+    
+
+margin-top: 5%;
+margin-left: 25%;
+margin-right: 25%;
+
+
+
+color: #000000;
+}
+
+.p6{
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.p7{
+    padding-top: 3%;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.p8{
+    padding-top: 3%;
+    padding-left: 25%;
+    padding-right: 25%;  
+}
+
+.ffff{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.eeee{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.pppp{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; 
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.mickaa{
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+
+    
+}
+
+.mmmmm{
+    display: flex;
+    justify-content: center;
+  
+    
+    margin-left: 50%;
+    margin-right: 50%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.signup{
+    border: 2px black solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 5% 3% 5%;
+    margin: 3% 25% 3% 25%;
+}
+
+.signup div{
+    margin-top: 5%;
+}
+
+@media screen and (min-width: 580px) {
+    .ham {
+      display: none;
+    }
+  }
+
+  
+  @media screen and (max-width: 580px) {
+    .navbar {
+      display: none;
+    }
+  }
+
+  @media screen and (min-width: 480px) {
+    .mmmmm {
+      display: none;
+    }
+  }
+
+
+  @media screen and (max-width: 580px) {
+    .logo {
+      max-width: 100%;
+    }
+  }
+    /* @media screen and (min-width: 580px) {
+    .logo {
+      max-width: 50%;
+    }
+  } */
+
+  @media screen and (min-width: 580px) {
+    .logo2{
+      display: none;
+    }
+  }
+
+
+  
+  
